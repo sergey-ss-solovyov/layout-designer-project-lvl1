@@ -65,7 +65,7 @@ section {
   color: var(--main-color);
 }
 
-p {
+.text-block {
   max-width: 540px;
 }
 
@@ -81,16 +81,28 @@ h3 {
   font-size: 34px;
 }
 
-.pt-100 {
-  padding-top: 100px;
+.pt-105 {
+  padding-top: 105px;
 }
 
 .pb-1 {
   margin-bottom: 1em;
 }
 
-.pb-100 {
-  padding-bottom: 100px;
+.mb-25 {
+  margin-bottom: 25px;
+}
+.mb-28 {
+  margin-bottom: 28px;
+}
+
+.header,
+.floor-1 {
+  height: 914px;
+}
+
+.floor-2 {
+  max-height: 991px;
 }
 
 .header-topic {
@@ -106,7 +118,7 @@ h3 {
 
 .header-image {
   position: absolute;
-  top: 50px;
+  top: 55px;
   left: 462px;
   height: 525px;
 }
@@ -131,4 +143,22 @@ h3 {
   font-size: 1em;
   color: var(--white-color);
   text-transform: uppercase;
+}
+
+.video {
+  position: relative;
+  left: center;
+  
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+  
+.floor-1 {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.floor-2 {
+  box-sizing: border-box;
+  position: relative;
+  top: -100;
 }
