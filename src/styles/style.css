@@ -302,6 +302,10 @@ footer {
   text-transform: uppercase;
 }
 
+.img-shadow {
+  filter: drop-shadow(0 0 32px rgba(184, 173, 166, 0.8));
+}
+
 /* ------ flex ------ */
 
 .flex-container {
