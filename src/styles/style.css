@@ -71,7 +71,7 @@ footer {
   padding-top: 100px;
 }
 
-#novelty-distortion {
+#distortion-of-novelty {
   height: 880px;
 
   padding-top: 100px;
@@ -302,8 +302,12 @@ footer {
   text-transform: uppercase;
 }
 
-.img-shadow {
+.light-shadow {
   filter: drop-shadow(0 0 32px rgba(184, 173, 166, 0.8));
+}
+
+.dark-shadow {
+  filter: drop-shadow(0 0 32px rgba(122, 107, 97, 0.8));
 }
 
 /* ------ flex ------ */
