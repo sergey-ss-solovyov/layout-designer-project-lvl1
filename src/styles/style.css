@@ -67,18 +67,26 @@ footer {
 
 #premature-optimization {
   height: 855px;
+
+  padding-top: 100px;
 }
 
 #novelty-distortion {
   height: 880px;
+
+  padding-top: 100px;
 }
 
 #hyperbolic-depreciation {
   height: 937px;
+
+  padding-top: 100px;
 }
 
 #planning-errors {
   height: 919px;
+
+  padding-top: 100px;
 }
 
 #footer {
@@ -198,6 +206,11 @@ footer {
   font-size: 24px;
 }
 
+.brown-14 {
+  color: var(--brown);
+  font-size: 14px;
+}
+
 /* ------ background ------ */
 
 .bg-orange {
@@ -210,6 +223,10 @@ footer {
 
 .bg-pr-dark {
   background: var(--primary-dark);
+}
+
+.bg-white {
+  background: var(--white);
 }
 
 /* ------ columns ------ */
