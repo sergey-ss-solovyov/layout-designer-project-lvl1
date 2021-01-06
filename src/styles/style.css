@@ -51,6 +51,8 @@ h2 > span {
 
 a {
   text-decoration: none;
+
+  cursor: pointer;
 }
 
 .container {
@@ -61,7 +63,7 @@ a {
 
 #header {
   height: 914px;
-  padding-top: 105px;
+  padding-top: 108px;
 }
 
 #video {
@@ -284,6 +286,10 @@ a {
   margin-top: 38px;
 }
 
+.mb-40 {
+  margin-bottom: 40px;
+}
+
 .mb-25 {
   margin-bottom: 25px;
 }
@@ -318,12 +324,12 @@ a {
 .header-banner {
   position: relative;
 
-  height: 452px;
+  height: 451px;
 }
 
 .header-image {
   position: relative;
-  top: -309px;
+  top: -311px;
   right: -297px;
 
   z-index: -100;
@@ -435,23 +441,20 @@ a {
 
 /* ------ orange buttons ------ */
 
-.btn-container {
-  width: 150px;
-  height: 85px;
-}
-
 .btn {
   cursor: pointer;
 }
 
 .btn-button {
+  display:table-cell;
+
   width: 148px;
   height: 49px;
-  margin-top: 38px;
+  margin-top: 40px;
 
-  font-weight: 700;
-  font-size: 1em;
+  font-weight: 900;
   text-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
 }
 
