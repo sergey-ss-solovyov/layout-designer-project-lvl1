@@ -31,6 +31,10 @@
   border: 0;
 }
 
+main {
+  position: relative;
+}
+
 body,
 header,
 main,
@@ -38,9 +42,21 @@ footer {
   width: 100%;
 }
 
+h1,
+h2,
+h4,
+h2 > span {
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+}
+
 .container {
   width: 1110px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 
 #header {
@@ -61,36 +77,46 @@ footer {
 
 #ikea-effect {
   height: 905px;
-
-  padding-top: 100px;
 }
 
 #premature-optimization {
   height: 855px;
-
-  padding-top: 100px;
 }
 
 #distortion-of-novelty {
   height: 880px;
-
-  padding-top: 100px;
 }
 
 #hyperbolic-depreciation {
   height: 937px;
-
-  padding-top: 100px;
 }
 
-#planning-errors {
+#errors-in-planning {
   height: 919px;
-
-  padding-top: 100px;
 }
 
 #footer {
   height: 581px;
+}
+
+.bg-watermark {
+  position: relative;
+}
+
+.bg-watermark::before {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url("./images/background.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 16%;
+
+  content: "";
 }
 
 /* ------ fonts ------ */
@@ -231,16 +257,32 @@ footer {
 
 /* ------ columns ------ */
 
-.col-2-row {
+.box-2-col {
   display: flex;
   justify-content: space-between;
 }
 
-.col-1-row {
+.text-box {
   max-width: 540px;
 }
 
 /* ------ box's styles ------ */
+
+.mt-57 {
+  margin-top: 57px;
+}
+
+.mr-55 {
+  margin-right: 55px;
+}
+
+.ml-55 {
+  margin-left: 55px;
+}
+
+.mt-38 {
+  margin-top: 38px;
+}
 
 .mb-25 {
   margin-bottom: 25px;
@@ -250,8 +292,21 @@ footer {
   margin-bottom: 29px;
 }
 
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
 .mb-1em {
   margin-bottom: 1em;
+}
+
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .align-center {
@@ -261,13 +316,15 @@ footer {
 /* ------ header ------ */
 
 .header-banner {
+  position: relative;
+
   height: 452px;
 }
 
 .header-image {
-  position: absolute;
-  top: 55px;
-  left: 462px;
+  position: relative;
+  top: -309px;
+  right: -297px;
 
   z-index: -100;
 
@@ -296,8 +353,6 @@ footer {
 
   margin-bottom: 20px;
   padding: 2px 0 0 10px;
-
-  font-weight: 900;
 
   text-transform: uppercase;
 }
@@ -346,27 +401,35 @@ footer {
   background-color: var(--white);
 }
 
-.nav-card p:nth-child(1) {
-  width: 23px;
-  height: 64px;
-  margin: 23px 0 40px 24px;
+.nav-card:hover {
+  background-color: var(--orange);
 }
 
-.nav-card p:nth-child(2) {
+.nav-card:hover * {
+  color: var(--white);
+}
+
+.nav-card h4 {
   width: 302px;
   margin: 0 0 12px 24px;
   padding-top: 2px;
 }
 
-.nav-card p:nth-child(3) {
+.card-number {
+  width: 23px;
+  height: 64px;
+  margin: 23px 0 40px 24px;
+}
+
+.card-text {
   width: 302px;
-  margin: 0 0 16px 24px;
+  margin: 0 0 0 24px;
 }
 
 /* ------ shift element ------ */
 
 .shift-element {
-  width: 1440px;
+  width: 100%;
   height: 100px;
 }
 
@@ -377,7 +440,11 @@ footer {
   height: 85px;
 }
 
-.button {
+.btn {
+  cursor: pointer;
+}
+
+.btn-button {
   width: 148px;
   height: 49px;
   margin-top: 38px;
@@ -386,4 +453,66 @@ footer {
   font-size: 1em;
   text-align: center;
   text-transform: uppercase;
+}
+
+.btn-submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 62px;
+  height: 50px;
+}
+
+.btn-submit::before {
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+
+  background: url(./images/send.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  content: "";
+}
+
+/* ------ footer ------ */
+
+.subscription-box {
+  height: 190px;
+  margin-top: 2px;
+}
+
+.mail-box {
+  width: 485px;
+}
+
+.copyright {
+  width: 100%;
+
+  margin-top: 65px;
+
+  line-height: 2.5em;
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* ------ forms ------ */
+
+form {
+  display: flex;
+}
+
+input {
+  padding: 15px;
+
+  font-size: 13px;
+}
+
+.email-field {
+  width: 423px;
+  height: 50px;
 }
