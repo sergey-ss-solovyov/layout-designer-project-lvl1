@@ -1,16 +1,11 @@
-# layout-designer-lvl1
-### 'Cognitive Bias' Landing Page
-
-This repository was created by Sergey Solovyov as the first educational layout-designer project ['Cognitive Biases'](https://ru.hexlet.io/professions/layout-designer/projects/58)
-
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/sergey-ss-solovyov/layout-designer-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/sergey-ss-solovyov/layout-designer-project-lvl1/actions)
 
+### 'Cognitive Bias' Landing Page
 
-Course: 'Layout designer' by ['Hexlet'](https://ru.hexlet.io/)
+First educational Layout Designer project ['Cognitive Biases'](https://ru.hexlet.io/professions/layout-designer/projects/58)
 
-### about
-"Cognitive Biases" Landing Page is a non-adaptive HTML/CSS project.
+Course: ['Layout designer'](https://ru.hexlet.io/professions/layout-designer) by ['Hexlet'](https://ru.hexlet.io/)
 
 ### deploy
 <a href="http://flowery-teeth.surge.sh/">Cognitive Biases</a>
