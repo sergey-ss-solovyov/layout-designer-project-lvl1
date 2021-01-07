@@ -62,7 +62,7 @@ a {
 #header {
   position: relative;
 
-  height: 914px;
+  /* height: 914px; */
   padding-top: 108px;
 }
 
@@ -72,7 +72,7 @@ a {
 }
 
 #navigation {
-  height: 1000px;
+  height: 990px;
 
   padding-top: 200px;
 }
@@ -87,16 +87,16 @@ a {
   height: 855px;
 } */
 
-#distortion-of-novelty {
+/* #distortion-of-novelty {
   height: 880px;
-}
+} */
 
-#hyperbolic-depreciation {
-  height: 937px;
-}
+/* #hyperbolic-depreciation {
+  height: 927px;
+} */
 
 #errors-in-planning {
-  height: 919px;
+  height: 909px;
 }
 
 #footer {
@@ -116,7 +116,7 @@ a {
   background-image: url("./images/background.png");
 
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 
   opacity: 16%;
 
@@ -141,12 +141,18 @@ a {
 
 h1,
 .orange-72 {
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2;
+
   color: var(--orange);
   font-size: 72px;
 }
 
 h2,
 .orange-60 {
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2;
+
   color: var(--orange);
   font-size: 60px;
 }
@@ -156,7 +162,6 @@ h2,
   font-size: 52px;
 }
 
-h3,
 .orange-34 {
   color: var(--orange);
   font-size: 34px;
@@ -273,7 +278,7 @@ h3,
 }
 
 .text-box {
-  max-width: 540px;
+  width: 541px;
 }
 
 /* ------ box's styles ------ */
@@ -298,20 +303,24 @@ h3,
   margin-bottom: 40px;
 }
 
-.mb-30 {
-  margin-bottom: 30px;
+.mb-31   {
+  margin-bottom: 31px;
 }
 
-.mb-26 {
-  margin-bottom: 26px;
+.mb-27 {
+  margin-bottom: 27px;
 }
 
 .mb-23 {
   margin-bottom: 23px;
 }
 
-.mb-8 {
-  margin-bottom: 8px;
+.mb-9 {
+  margin-bottom: 9px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
 }
 
 .mb-4 {
@@ -375,11 +384,11 @@ h3,
 }
 
 .light-shadow {
-  filter: drop-shadow(0 0 32px rgba(184, 173, 166, 0.8));
+  filter: drop-shadow(0px 15px 50px rgba(175, 173, 172, 0.8));
 }
 
 .dark-shadow {
-  filter: drop-shadow(0 0 32px rgba(122, 107, 97, 0.8));
+  filter: drop-shadow(0 15px 50px rgba(122, 107, 97, 0.8));
 }
 
 /* ------ flex ------ */
@@ -435,19 +444,12 @@ h3,
 .card-number {
   width: 23px;
   height: 64px;
-  margin: 23px 0 41px 24px;
+  margin: 24px 0 42px 24px;
 }
 
 .card-text {
   width: 302px;
   margin: 0 0 0 24px;
-}
-
-/* ------ shift element ------ */
-
-.shift-element {
-  width: 100%;
-  height: 100px;
 }
 
 /* ------ orange buttons ------ */
@@ -529,4 +531,14 @@ input {
 .email-field {
   width: 423px;
   height: 50px;
+}
+
+/* ------ temporary styles because of tests... ------ */
+#premature-optimization .container div:nth-child(4) {
+  padding-top: 6px;
+  margin-bottom: 16px;
+}
+
+ul {
+  margin: 9px 0 17px 40px;
 }
