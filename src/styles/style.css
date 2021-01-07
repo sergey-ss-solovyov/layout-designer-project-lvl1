@@ -67,14 +67,14 @@ a {
 }
 
 #video {
-  height: 814px;
-  padding-top: 105px;
+  height: 804px; /* 814 -> 804*/
+  padding-top: 106px;
 }
 
 #navigation {
-  height: 891px;
+  height: 1001px; /* 891 -> 991 -> 1001 */
 
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 #ikea-effect {
@@ -297,8 +297,8 @@ a {
   margin-bottom: 26px;
 }
 
-.mb-25 {
-  margin-bottom: 25px;
+.mb-23 {
+  margin-bottom: 23px;
 }
 
 .mb-8 {
