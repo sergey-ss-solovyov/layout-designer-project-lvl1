@@ -62,7 +62,7 @@ a {
 #header {
   position: relative;
 
-  /* height: 914px; */
+  height: 914px;
   padding-top: 108px;
 }
 
@@ -75,28 +75,6 @@ a {
   height: 990px;
 
   padding-top: 200px;
-}
-
-#ikea-effect {
-  height: 905px;
-}
-
-/* ------ special to pass the test for adding content ------ */
-
-/* #premature-optimization {
-  height: 855px;
-} */
-
-/* #distortion-of-novelty {
-  height: 880px;
-} */
-
-/* #hyperbolic-depreciation {
-  height: 927px;
-} */
-
-#errors-in-planning {
-  height: 909px;
 }
 
 #footer {
@@ -182,19 +160,9 @@ h2,
   font-size: 34px;
 }
 
-.dark-14 {
-  color: var(--dark);
-  font-size: 14px;
-}
-
 .pr-dark-64 {
   color: var(--primary-dark);
   font-size: 64px;
-}
-
-.pr-dark-16 {
-  color: var(--primary-dark);
-  font-size: 16px;
 }
 
 .tr-dark-24 {
@@ -202,10 +170,10 @@ h2,
   font-size: 24px;
 }
 
-.white-64 {
+/* .white-64 {
   color: var(--white);
   font-size: 64px;
-}
+} */
 
 .white-60 {
   color: var(--white);
@@ -461,7 +429,7 @@ h2,
 .btn-button {
   display: inline-block;
 
-  width: 148px;
+  width: 149px;
   height: 49px;
   padding-top: 12px;
 
