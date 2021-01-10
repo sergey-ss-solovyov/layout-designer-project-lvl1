@@ -11,7 +11,7 @@
 :root {
   --blue: #1085c5;
   --brown: #b09a81;
-  --dark: #000;
+  --dark: #2A2626;
   --translucent-dark: #908d8b;
   --light: #f5f4f0;
   --primary-dark: #42413c;
@@ -49,6 +49,10 @@ h2 > span {
   font-weight: normal;
 }
 
+h1 {
+  z-index: 200;
+}
+
 a {
   text-decoration: none;
 }
@@ -61,6 +65,7 @@ a {
 
 #header {
   position: relative;
+  z-index: 0;
 
   height: 914px;
 }
@@ -219,8 +224,6 @@ h2,
 
 .bg-light {
   background-color: var(--light);
-
-  opacity: 75%;
 }
 
 .bg-watermark {
@@ -238,7 +241,7 @@ h2,
   background-repeat: no-repeat;
   background-size: cover;
 
-  opacity: 16%;
+  opacity: 10%;
 
   content: "";
 }
@@ -329,6 +332,7 @@ h2,
 
 .header-image {
   position: absolute;
+  z-index: -100;
   top: -45px;
   right: -270px;
 
@@ -436,7 +440,7 @@ h2,
 
   width: 148px;
   height: 49px;
-  padding-top: 12px;
+  padding-top: 12px 24px;
 
   font-weight: 900;
   text-align: center;
