@@ -248,6 +248,8 @@ h2,
 .box-2-col {
   display: flex;
   justify-content: space-between;
+
+  margin-top: 8px;
 }
 
 .text-box {
@@ -327,7 +329,7 @@ h2,
 
 .header-image {
   position: absolute;
-  top: -53px;
+  top: -45px;
   right: -270px;
 
   height: 525px;
