@@ -63,9 +63,6 @@ a {
   position: relative;
 
   height: 914px;
-  padding-top: 108px;
-
-  background-color: var(--light);
 }
 
 #video {
@@ -81,26 +78,6 @@ a {
 
 #footer {
   height: 581px;
-}
-
-.bg-watermark {
-  position: relative;
-}
-
-.bg-watermark::before {
-  position: absolute;
-
-  width: 100%;
-  height: 100%;
-
-  background-image: url("./images/background.png");
-
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  opacity: 16%;
-
-  content: "";
 }
 
 /* ------ fonts ------ */
@@ -228,12 +205,6 @@ h2,
   background: var(--orange);
 }
 
-.bg-light {
-  background-color: var(--light);
-
-  opacity: 94%;
-}
-
 .bg-brown {
   background: var(--brown);
 }
@@ -244,6 +215,32 @@ h2,
 
 .bg-white {
   background: var(--white);
+}
+
+.bg-light {
+  background-color: var(--light);
+
+  opacity: 75%;
+}
+
+.bg-watermark {
+  position: relative;
+}
+
+.bg-watermark::before {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  background-image: url("./images/background.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 16%;
+
+  content: "";
 }
 
 /* ------ columns ------ */
@@ -398,7 +395,7 @@ h2,
 }
 
 .nav-card {
-  background-color: var(--white);
+  background-color: var(--light);
 }
 
 .nav-card:hover {
