@@ -46,7 +46,7 @@ h1,
 h2,
 h4,
 h2 > span {
-  font-weight: 100;
+  font-weight: normal;
 }
 
 a {
