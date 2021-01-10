@@ -64,6 +64,8 @@ a {
 
   height: 914px;
   padding-top: 108px;
+
+  background-color: var(--light);
 }
 
 #video {
@@ -226,6 +228,12 @@ h2,
   background: var(--orange);
 }
 
+.bg-light {
+  background-color: var(--light);
+
+  opacity: 94%;
+}
+
 .bg-brown {
   background: var(--brown);
 }
@@ -324,8 +332,6 @@ h2,
   position: absolute;
   top: -53px;
   right: -270px;
-
-  z-index: -100;
 
   height: 525px;
 }
