@@ -11,7 +11,7 @@
 :root {
   --blue: #1085c5;
   --brown: #b09a81;
-  --dark: #2A2626;
+  --dark: #2a2626;
   --translucent-dark: #908d8b;
   --light: #f5f4f0;
   --primary-dark: #42413c;
@@ -103,20 +103,18 @@ a {
 
 h1,
 .orange-72 {
-  font-family: 'Neucha', sans-serif;
-  line-height: 1.2;
-
   color: var(--orange);
   font-size: 72px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2;
 }
 
 h2,
 .orange-60 {
-  font-family: 'Neucha', sans-serif;
-  line-height: 1.2;
-
   color: var(--orange);
   font-size: 60px;
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2;
 }
 
 .orange-52 {
@@ -153,11 +151,6 @@ h2,
   color: var(--translucent-dark);
   font-size: 24px;
 }
-
-/* .white-64 {
-  color: var(--white);
-  font-size: 64px;
-} */
 
 .white-60 {
   color: var(--white);
@@ -281,7 +274,7 @@ h2,
   margin-bottom: 40px;
 }
 
-.mb-31   {
+.mb-31 {
   margin-bottom: 31px;
 }
 
@@ -332,9 +325,10 @@ h2,
 
 .header-image {
   position: absolute;
-  z-index: -100;
   top: -45px;
   right: -270px;
+
+  z-index: -100;
 
   height: 525px;
 }
@@ -361,11 +355,11 @@ h2,
 }
 
 .light-shadow {
-  filter: drop-shadow(0px 15px 50px rgba(175, 173, 172, 0.8));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .dark-shadow {
-  filter: drop-shadow(0 15px 50px rgba(122, 107, 97, 0.8));
+  filter: drop-shadow(0 16px 32px rgba(122, 107, 97, 0.8));
 }
 
 /* ------ flex ------ */
@@ -440,7 +434,7 @@ h2,
 
   width: 148px;
   height: 49px;
-  padding-top: 12px 24px;
+  padding: 12px 24px;
 
   font-weight: 900;
   text-align: center;
@@ -512,8 +506,8 @@ input {
 
 /* ------ temporary styles because of tests... ------ */
 #premature-optimization .container div:nth-child(4) {
-  padding-top: 6px;
   margin-bottom: 16px;
+  padding-top: 6px;
 }
 
 ul {
