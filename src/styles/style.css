@@ -82,7 +82,7 @@ a {
 }
 
 #errors-in-planning {
-  height: 919px;
+  height: 911px;
 }
 
 #footer {
@@ -394,10 +394,6 @@ h2,
   height: 348px;
 }
 
-/* .heading-card {
-  padding-top: 5px;
-} */
-
 .nav-card {
   background-color: var(--light);
 }
@@ -420,7 +416,7 @@ h2,
 .card-number {
   width: 23px;
   height: 64px;
-  margin: 24px 0 42px 24px;
+  margin: 24px 0 40px 24px;
 }
 
 .card-text {
