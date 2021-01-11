@@ -76,7 +76,7 @@ a {
 }
 
 #navigation {
-  height: 990px;
+  height: 991px;
 
   padding-top: 200px;
 }
@@ -103,11 +103,6 @@ a {
 
 .lh-1 {
   line-height: 1;
-}
-
-.lh-102 {
-  line-height: 1.02;
-  /* font-weight: normal; */
 }
 
 h1,
