@@ -105,6 +105,10 @@ a {
   line-height: 1;
 }
 
+.lh-098 {
+  line-height: 0.98;
+}
+
 h1,
 .orange-72 {
   color: var(--orange);
@@ -161,8 +165,8 @@ h2,
   font-size: 60px;
 }
 
-.light-52 {
-  color: var(--light);
+.white-52 {
+  color: var(--white);
   font-size: 52px;
 }
 
