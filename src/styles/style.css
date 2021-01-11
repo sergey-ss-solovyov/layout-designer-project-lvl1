@@ -49,10 +49,6 @@ h2 > span {
   font-weight: normal;
 }
 
-h1 {
-  z-index: 200;
-}
-
 a {
   text-decoration: none;
 }
@@ -113,11 +109,7 @@ h1,
   line-height: 1.2;
 }
 
-#premature-optimization h2 {
-  font-family: 'Neucha', sans-serif;
-  line-height: 1.2;
-}
-
+#premature-optimization h2:nth-child(1),
 .orange-60 {
   color: var(--orange);
   font-size: 60px;
@@ -433,6 +425,8 @@ h1,
 /* ------ orange buttons ------ */
 
 .btn {
+  position: relative;
+
   cursor: pointer;
 }
 
