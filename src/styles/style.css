@@ -82,9 +82,16 @@ a {
 }
 
 #errors-in-planning {
-  height: 909px;
+  position: relative;
+
+  height: 913px;
 }
 
+#errors-in-planning .container {
+  position: relative;
+
+  top: -2px;
+} 
 #footer {
   height: 581px;
 }
@@ -417,11 +424,15 @@ h2,
   width: 23px;
   height: 64px;
   margin: 24px 0 40px 24px;
+
+  color: var(--dark);
 }
 
 .card-text {
   width: 302px;
   margin: 0 0 0 24px;
+
+  color: var(--primary-dark);
 }
 
 /* ------ orange buttons ------ */
