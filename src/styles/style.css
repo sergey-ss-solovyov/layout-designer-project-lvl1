@@ -162,7 +162,7 @@ h2,
 }
 
 .light-52 {
-  color: var(--white);
+  color: var(--light);
   font-size: 52px;
 }
 
@@ -425,7 +425,7 @@ h2,
   width: 302px;
   margin: 0 0 0 24px;
 
-  color: var(--primary-dark);
+  color: var(--dark);
 }
 
 /* ------ orange buttons ------ */
