@@ -113,7 +113,11 @@ h1,
   line-height: 1.2;
 }
 
-#premature-optimization h2,
+#premature-optimization h2 {
+  font-family: 'Neucha', sans-serif;
+  line-height: 1.2;
+}
+
 .orange-60 {
   color: var(--orange);
   font-size: 60px;
@@ -233,7 +237,7 @@ h1,
   width: 100%;
   height: 100%;
 
-  background-image: url("./images/background.png");
+  background-image: url("../assets/images/background.png");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -459,7 +463,7 @@ h1,
   height: 24px;
   margin: 0 auto;
 
-  background: url(./images/send.svg);
+  background: url(../assets/images/send.svg);
   background-repeat: no-repeat;
   background-size: cover;
 
