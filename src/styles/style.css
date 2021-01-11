@@ -82,16 +82,9 @@ a {
 }
 
 #errors-in-planning {
-  position: relative;
-
-  height: 913px;
+  height: 912px;
 }
 
-#errors-in-planning .container {
-  position: relative;
-
-  top: -2px;
-} 
 #footer {
   height: 581px;
 }
@@ -109,7 +102,7 @@ a {
 }
 
 .lh-1 {
-  line-height: 1.02;
+  line-height: 1;
 }
 
 h1,
@@ -168,7 +161,7 @@ h2,
   font-size: 60px;
 }
 
-.white-52 {
+.light-52 {
   color: var(--white);
   font-size: 52px;
 }
