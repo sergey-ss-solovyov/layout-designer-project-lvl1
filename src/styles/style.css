@@ -105,8 +105,9 @@ a {
   line-height: 1;
 }
 
-.lh-098 {
-  line-height: 0.98;
+.lh-101 {
+  line-height: 1.01;
+  /* font-weight: normal; */
 }
 
 h1,
